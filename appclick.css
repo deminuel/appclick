@@ -100,16 +100,37 @@ body {
 
 
 @media (max-width: 600px) {
-    body {
-        background-color: red;
-    }
+    
 
-    .content {
+.content {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: center; 
         justify-content: center;
-    }
+}
+.left-box {
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
+    
+.password {
+    position: relative;
+}
+.password-lock {
+    position: absolute;
+    bottom: 258px;
+    
+}
+.help {
+    padding-right: 50px;
+}
+.user {
+    padding-right: 50px;
+}
 
+
+
+}
