@@ -1,10 +1,9 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: "Roboto", sans-serif;
-   
-  
+    font-family: "Roboto", sans-serif, arial;
 }
+
 .content{
     display: flex;
     flex-direction: row;
@@ -92,32 +91,23 @@ body {
 
 
 @media (max-width: 600px) {
-    
-
-.content {
-        display: flex;
-        flex-direction: column;
-    }
-
-  body {
+    body {
         display: flex;
         flex-direction: column;
        justify-content: center;
     } 
-.password {
-    position: relative;
-}
-
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+    .password {
+        position: relative;
+        
+    }
     
-
-/* }
-.user {
-    padding-right: 50px;
-}
-.form {
-    width: 400px
-} */
-
-
-
+    .envelope{
+        position: absolute;
+        top: 165px !important; 
+        left: 300px !important;
+    }
 }

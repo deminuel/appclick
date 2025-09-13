@@ -1,0 +1,61 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(5, 36, 5);
+}
+
+
+.logo {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+nav {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 20px; */
+    
+
+}
+/* .right-box {
+    flex: 20%; */
+/* }; */
+.hey {
+    width: 100%;
+}
+.middle-box {
+    flex: 80%;
+    display: flex;
+}
+.right-box {
+    flex: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.input-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+.search {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-radius: 35px;
+    border: 1px solid black;
+    padding-left: 50px;
+}
+.glass {
+    position: absolute;
+    left: 90px;
+}
+.microphone{
+    width: 10%;
+}
